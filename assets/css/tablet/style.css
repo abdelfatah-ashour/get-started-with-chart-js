@@ -1,0 +1,134 @@
+@media (min-width: 767px) and (max-width: 991.5px) {
+  body {
+    padding: 0;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .menu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.5rem;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+  }
+
+  .wrapper-menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+
+  .wrapper-menu li {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0 0.5rem 0 0;
+  }
+
+  .power {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .general {
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .general .part-general:nth-of-type(1) {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .general .part-general:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .wrapper-get-now div {
+    font-size: 1rem;
+  }
+
+  .wrapper-get-now span {
+    font-size: 0.5rem;
+    margin: 0.5rem;
+  }
+
+  main {
+    width: 100%;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+  }
+
+  .header {
+    flex-direction: row;
+  }
+
+  .list-num {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .sub-list-num {
+    margin-right: 0.5rem;
+    margin-left: 1rem;
+  }
+
+  .progress-total {
+    padding: 0.5rem;
+  }
+
+  .canvas {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .canvas-left,
+  .canvas-right {
+    width: 50%;
+    margin-bottom: 0.5rem;
+  }
+
+  .result {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .sub-result {
+    margin-bottom: 1rem;
+  }
+
+  .history {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .right-history,
+  .left-history {
+    width: 50%;
+    padding: 0.5rem;
+  }
+}
